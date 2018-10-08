@@ -1,0 +1,139 @@
+/******  Base Style  *************/
+* {
+  box-sizing: border-box;
+}
+
+.page-wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+.third-width {
+  width:400px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1, h2, h3, nav {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+/******  Header  *************/
+header {
+  width: 100%;
+  height: 110px;
+  padding: 32px 0;
+}
+h1 {
+  font-size: 30px;
+  color: #77a466;
+  display: inline-block;
+}
+h1 span {
+  color: black;
+}
+nav{
+  float:right;
+}
+nav ul li{
+  display: inline-block;
+  padding: 12.5px 28px;
+  font-size: 14px;
+  font-weight: 700;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #77a466;
+}
+nav ul li:last-child{
+  padding: 8px 0 8px 28px;
+}
+
+/******  Main  *************/
+.hero-image {
+  background-image: url("../images/hero_image.jpg");
+width: 1200px;
+height: 288px;
+border-top: 4px solid #77a466;
+border-bottom: 4px solid #77a466;
+clear: both;
+}
+h2 {
+  color: #77a466;
+  margin: 30px 0;
+  font-size: 18px;
+}
+#about {
+  padding-bottom: 39px;
+}
+.info-section{
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  width:1200px;
+  height:212px;
+  display: inline-block;
+}
+.third-width {
+  float:left;
+  padding-top: 27px;
+}
+.right {
+  padding-left:30px;
+}
+.center {
+  padding: 27px 30px 0 30px;
+}
+.third-width.center {
+  border-left: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+}
+h3 {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.third-width p {
+  line-height: 22px;
+  padding-bottom: 13px;
+}
+.left li {
+  color: #77a466;
+  line-height: 32px;
+}
+
+
+/******  Footer  *************/
+footer {
+  clear: both;
+  height: 80px;
+  padding-top: 30px;
+}
+footer h3 {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+footer span {
+  color: #77a466;
+  font-family: "Pacifico", cursive;
+  text-transform: lowercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.Powered_By_Lots_of_________Ingredients {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.438;
+  position: absolute;
+  left: 451.937px;
+  top: 816.996px;
+  z-index: 5;
+}
